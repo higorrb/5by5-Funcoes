@@ -45,7 +45,7 @@ void CaminhoPrimo(int num)
         {
             if(i == num)
             {
-                Console.Write(i + " <-- NUMERO DIGITADO");
+                Console.Write("[" + i + "]" + " <-- NUMERO DIGITADO");
                 break;
             }
             Console.Write(i + " ");
